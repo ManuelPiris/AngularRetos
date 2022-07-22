@@ -9,7 +9,7 @@ import { Usuario } from 'src/app/models/usuario';
 export class PerfilComponent implements OnInit {
     public miUsuario: Usuario;
   constructor() { 
-      this.miUsuario = new Usuario(1,"Manuel","Piris","prueba@.com","www.url.com","pruebas")
+      this.miUsuario = new Usuario("Manuel","Piris","prueba@.com","www.url.com","pruebas",1)
   }
 
   ngOnInit(): void {
@@ -21,6 +21,6 @@ public enviar(nuevoNombre: HTMLInputElement, nuevoApellido: HTMLInputElement,nue
   // console.log(this.miUsuario.nombre);  
   this.miUsuario.apellidos = nuevoApellido.value; 
   this.miUsuario.correo = nuevoCorreo.value;   
-  this.miUsuario.url = nuevoURL.value 
+  this.miUsuario.foto = nuevoURL.value 
 }
 }

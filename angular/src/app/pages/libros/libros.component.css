@@ -1,24 +1,16 @@
-/* *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing:border-box;
-} */
-
-.card{
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
-}
+  }
   
-.price{
-    
+  .price {    
     font-size: 22px;
-}
+  }
 
-.card button{
+  .card button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -28,9 +20,9 @@
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-}
+  }
   
-.card1 .form button{
+  .card1 .form button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -40,9 +32,9 @@
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-}
+  }
 
-.card2 button{
+  .card2 button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -52,44 +44,33 @@
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-}
+  }
 
   
-.card button:hover{
+  .card button:hover {
     opacity: 0.7;
+  }
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  color: white;
+  margin-bottom: 15px;
 }
 
-
-.bloqueForm{
-    text-align: center;
-    height: 600px;
-    background-image: url("src\assets\fotos\liberia.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white; 
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: red;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.form input{
-    border: 0.5px solid grey;
-    border-radius: 4px;
-    background: transparent;    
-    margin: 3px;
-    height: 50px;
-     color: white;
-    font-weight: bold;
-    text-align: center;
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
 }
-
-.form button{
-    height: 50px;
-    width: 200px;
-    border-radius: 8px;
-    margin: 10px;
-    background: green;
-    color: white;
-}
- 
-.form input::placeholder{
-    color: white;
-}
- 
