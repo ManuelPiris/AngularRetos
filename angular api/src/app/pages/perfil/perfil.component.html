@@ -1,0 +1,42 @@
+<div class="menu">
+    <div class="izquierda">
+        <div class="foto_perfil">
+        <div class="foto">
+</div>
+    <div class="datos">
+    <div class="nombre">
+        <h2>{{miUsuario.nombre}} {{miUsuario.apellidos}}</h2>
+</div>
+<div class="formulario_datos">
+    <div class="datos">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" class="caja" value="{{miUsuario.nombre}}">
+</div>
+<div class="datos">
+    <label for="apellido">Apellido</label>
+    <input type="text" id="apellido"class="caja" value="{{miUsuario.apellidos}}">
+</div>
+<div class="datos">
+    <label for="correo">Correo</label>
+    <input type="text" id="correo"class="caja" value="{{miUsuario.correo}}">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="derecha">
+    <div class="formulario_fotos">
+    <div class="titulo">
+        <h2>Modificar datos</h2>
+</div>
+<div class="formulario">
+    <input type="text" id="nombre" class="datos_formulario" placeholder="Nombre" #input1>
+    <input type="text" id="apellidos" class="datos_formulario" placeholder="Apellido" #input2>
+    <input type="text" id="email" class="datos_formulario" placeholder="Email" #input3>
+    <input type="text" id="url" class="datos_formulario" placeholder="Url" #input4>
+    <button type="button" id="modificar" class="boton" on-click=enviar(input1,input2,input3,input4)>Modificar</button>
+</div>
+</div>
+</div>
+</div>
+

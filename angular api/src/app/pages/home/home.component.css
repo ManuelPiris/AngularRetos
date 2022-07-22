@@ -1,0 +1,23 @@
+ 
+
+.cuerpo{    
+    width: 100%;    
+}
+
+.cuerpo__superior{ 
+    background-image: url("../../../assets/fotos/liberia.jpg");
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+    font-size: 3em;
+}
+
+.cuerpo__subtitulo{
+
+    font-size: 1.5em;
+    color: white;
+    margin-top: 300px;
+}
